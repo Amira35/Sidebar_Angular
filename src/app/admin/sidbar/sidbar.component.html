@@ -1,0 +1,35 @@
+<div class="navbar">
+  <div class="top">
+    <mat-icon>notifications</mat-icon>
+  </div>
+  <div class="user">
+    <img src="../../../assets/admin.png" alt="admin">
+    <h4 class="name">admin</h4>
+    <p class="mail">admin@gmail.com</p>
+  </div>
+  <div class="menu">
+    <h4>dashboard</h4>
+    <div class="menu-item">
+      <button mat-button class="menu-button" [routerLink]="['/home']">
+          <mat-icon>dashboard</mat-icon>
+          <span>home</span>
+      </button>
+      <button mat-button class="menu-button" [routerLink]="['/posts']">
+        <mat-icon>message</mat-icon>
+        <span>posts</span>
+    </button>
+    <button mat-button class="menu-button" [routerLink]="['/comments']">
+      <mat-icon>comment</mat-icon>
+      <span>comments</span>
+    </button>
+    <button mat-button class="menu-button" [routerLink]="['/pages']">
+      <mat-icon>pages</mat-icon>
+      <span>pages</span>
+    </button>
+    <button mat-button class="menu-button" [routerLink]="['/setting']">
+      <mat-icon>settings</mat-icon>
+      <span>settings</span>
+    </button>
+    </div>
+  </div>
+</div>
